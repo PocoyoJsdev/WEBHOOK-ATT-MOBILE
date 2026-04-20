@@ -6,7 +6,7 @@ const PLATFORMS = {
   iOS: "https://clientsettingscdn.roblox.com/v2/client-version/iOSApp",
 };
 
-const lastVersions = {Android: "version-FAKE-123", iOS: "version-FAKE-123" };
+const lastVersions = {};
 
 async function checkVersion(platform, url) {
   try {
